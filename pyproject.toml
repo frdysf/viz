@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "viz"
+version = "0.1.0"
+description = ""
+authors = [
+    { name="Farida Yusuf", email="f.yusuf@qmul.ac.uk" }
+]
+dependencies = [
+    "torch",
+    "matplotlib",
+    "sklearn",
+    "umap",
+]
+
+[tool.setuptools.packages.find]
+where = ["viz"]  # TODO: does this still work for a one-file package?
