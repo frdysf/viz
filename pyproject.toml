@@ -12,9 +12,9 @@ authors = [
 dependencies = [
     "torch",
     "matplotlib",
-    "sklearn",
+    "scikit-learn",
     "umap",
 ]
 
 [tool.setuptools.packages.find]
-where = ["viz"]  # TODO: does this still work for a one-file package?
+where = ["."]  # TODO: does this still work for a one-file package?
