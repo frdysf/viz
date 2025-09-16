@@ -14,7 +14,17 @@ dependencies = [
     "matplotlib",
     "scikit-learn",
     "umap",
+    "numpy",
+    "imageio",
+    "pygifsicle",
 ]
 
-[tool.setuptools.packages.find]
-where = ["."]  # TODO: does this still work for a one-file package?
+# optional-dependencies = {
+#     "example": [
+#         "hydra-core",
+#         "omegaconf",
+#     ]
+# }
+
+[tool.flit.module]
+name = "viz"
