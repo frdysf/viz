@@ -13,7 +13,7 @@ dependencies = [
     "torch",
     "matplotlib",
     "scikit-learn",
-    "umap",
+    "umap-learn",
     "numpy",
     "imageio",
     "pygifsicle",
